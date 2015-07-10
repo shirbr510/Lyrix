@@ -40,6 +40,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Data\Abstract\ILyrixObject.cs" />
+    <Compile Include="Data\Abstract\ILyrixTags.cs" />
     <Compile Include="Parsers\Abstract\ILyrixParser.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

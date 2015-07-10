@@ -1,12 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using System.ComponentModel;
 
 namespace Lyrix.Data.Abstract
 {
     interface ILyrixObject
     {
+        ILyrixTags Tags { get; set; }
+
+        IDictionary<TimeSpan, string> Lyrics { get; set; } 
     }
 }
