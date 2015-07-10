@@ -4,7 +4,7 @@ using System.ComponentModel;
 
 namespace Lyrix.Data.Abstract
 {
-    interface ILyrixObject
+    public interface ILyrixObject
     {
         ILyrixTags Tags { get; set; }
 

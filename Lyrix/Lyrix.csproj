@@ -42,6 +42,8 @@
     <Compile Include="Data\Abstract\ILyrixObject.cs" />
     <Compile Include="Data\Abstract\ILyrixTags.cs" />
     <Compile Include="Parsers\Abstract\ILyrixParser.cs" />
+    <Compile Include="Parsers\EnhancedLyrixParser.cs" />
+    <Compile Include="Parsers\LyrixParser.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

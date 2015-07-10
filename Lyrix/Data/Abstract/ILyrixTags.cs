@@ -3,7 +3,7 @@ using System.ComponentModel;
 
 namespace Lyrix.Data.Abstract
 {
-    interface ILyrixTags
+    public interface ILyrixTags
     {
         [Description("[ar:Lyrics artist]")]
         string Artist { get; set; }
