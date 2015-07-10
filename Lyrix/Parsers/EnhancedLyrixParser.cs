@@ -1,13 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Lyrix.Parsers.Abstract;
+﻿using Lyrix.Parsers.Abstract;
 
 namespace Lyrix.Parsers
 {
-    class EnhancedLyrixParser:ILyrixParser
+    /// <summary>
+    /// Parses lyrics of the enhanced lrc format
+    /// </summary>
+    public class EnhancedLyrixParser:ILyrixParser
     {
     }
 }
